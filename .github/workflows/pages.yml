@@ -28,6 +28,8 @@ jobs:
           VITE_API_ORIGIN: https://helix-comisiones-2026.armando-vila-9784.chatgpt.site
           VITE_ASSET_ORIGIN: https://helix-comisiones-2026.armando-vila-9784.chatgpt.site
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist-github
